@@ -24,9 +24,7 @@ public class Main {
      * @param args not used by the program
      */
     public static void main(String[] args) {
-        System.out.println("Instance 1");
         Translator translator = new JSONTranslator();
-        System.out.println("Instance 2");
         runProgram(translator);
     }
 
